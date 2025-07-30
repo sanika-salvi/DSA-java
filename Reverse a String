@@ -1,0 +1,11 @@
+public class Reversestring {
+    public static void main(String args[]){
+        String str="helloworld";
+        System.out.println(reverse(str));
+    }
+    static String reverse(String str){
+        return new
+        StringBuilder(str).reverse().toString();
+
+    }
+}
